@@ -1,0 +1,122 @@
+@media (min-width: 376px) {
+    @import url('https://fonts.google.com/specimen/Outfit');
+
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: hsl(217, 54%, 11%);
+    }
+
+    main {
+        margin: auto;
+        position: relative;
+        top: 80px;
+        width: 100%;
+    }
+
+    .container {
+        font-family: 'Outfit', sans-serif;
+        width: 20.5rem;
+        height: 35rem;
+        margin: auto;
+        padding: 25px;
+        border-radius: 10px;
+        background-color: hsl(216, 50%, 16%);
+    }
+
+    picture img {
+        width: 17rem;
+        border-radius: 10px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a[href="#"] {
+        color: white;
+    }
+
+    a[href="#"] img:hover {
+        background-image: url('./images/cyan-box.png');
+        background-color: cyan;
+        z-index: 0;
+    }
+
+
+    a[href="#"]:hover {
+        color: cyan;
+    }
+
+    h4 {
+
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    .paragraph {
+        color: hsl(215, 51%, 70%);
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .paragraph-second {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .eth {
+        color: hsl(178, 100%, 50%);
+        font-size: 15px;
+    }
+
+    .eth img {
+        width: 8px;
+    }
+
+    .clock {
+        color: hsl(215, 51%, 70%);
+        font-size: 15px;
+        margin-left: 100px;
+    }
+
+    .clock img {
+        width: 13px;
+        margin-top: 10px;
+    }
+
+    hr {
+        height: 1px;
+        background-color: hsl(215, 32%, 27%);
+        border: none;
+    }
+
+    .footer {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .footer img {
+        width: 40px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+
+    .footer .colored {
+        color: hsl(215, 51%, 70%);
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .footer .white {
+        color: white;
+
+    }
+
+}
